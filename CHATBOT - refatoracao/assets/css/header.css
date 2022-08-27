@@ -1,0 +1,62 @@
+.img-mao {
+    background-image: url("../img/mao.png");
+    background-position: right center;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.5rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 1.7rem;
+    color: #D57D96;
+}
+
+/* btn */
+.sign-up {
+    background-color: transparent;
+    color: #D57D96;
+    padding: 15px 1.5rem;
+    border: #D57D96 solid 1px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    transition: .5s;
+}
+
+.sign-up:hover {
+    background-color: #D57D96;
+    border: #D57D96 solid 1px;
+    color: #fff;
+    box-shadow: 0 0 .6rem rgb(253, 157, 157);
+}
+
+
+/* responsiv */
+@media (max-width: 350px) {
+    header {
+        padding: 2rem;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    h2 {
+        padding: 1rem 0;
+    }
+
+}
